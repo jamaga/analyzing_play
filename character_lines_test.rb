@@ -1,13 +1,3 @@
-module Ibiblio
-  extend self
-
-  def lc(xml)
-    '3 First Witch\n'+
-    '3 Second Witch\n'+
-    '1 Third Witch'
-  end
-end
-
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'byebug'
@@ -45,5 +35,3 @@ describe 'test for checking if tehy are saying sth' do
       subject.scan(/1 Third Witch/).must_equal ['1 Third Witch']
     end
   end
-
-end
