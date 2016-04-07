@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'byebug'
+require 'ibiblio'
 
 # integration test
 #if i give data -- it does THIS to it
@@ -11,7 +12,7 @@ describe 'test for checking if tehy are saying sth' do
   let(:xml) { File.read('./my_sample.xml') }
 
   describe 'FIRST character\'s lines' do
-    subject { Ibiblio.lc(xml) }
+    subject { Ibiblio.reading(xml) }
     it 'character has three lines' do
       #byebug
       #subject must be equal to any number of numbers
@@ -23,14 +24,14 @@ describe 'test for checking if tehy are saying sth' do
   end
 
   describe 'SECOND character\'s lines' do
-    subject { Ibiblio.lc(xml) }
+    subject { Ibiblio.reading(xml) }
     it 'character has three lines' do
       subject.scan(/3 Second Witch/).must_equal ['3 Second Witch']
     end
   end
 
   describe 'THIRD character\'s lines' do
-    subject { Ibiblio.lc(xml) }
+    subject { Ibiblio.reading(xml) }
     it 'character has one line' do
       subject.scan(/1 Third Witch/).must_equal ['1 Third Witch']
     end
