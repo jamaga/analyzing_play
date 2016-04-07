@@ -5,8 +5,9 @@ require_relative 'ibiblio'
 describe Ibiblio::Play do
   let(:xml) { File.read('./my_sample.xml') }
 
+  let(:play) { Ibiblio::Play.new(xml) }
   describe 'characters in play' do
-    subject { Ibiblio::Play.new(xml).characters_names }
+    subject { play.characters_names }
     it { subject.must_equal ['BANQUO', 'First Murderer', 'Third Murderer'] }
   end
 

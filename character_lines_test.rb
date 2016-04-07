@@ -17,7 +17,8 @@ describe 'test for checking if tehy are saying sth' do
       #byebug
       #subject must be equal to any number of numbers
       #and then a name - which is first which
-      subject.scan(/3 BANQUO/).must_equal ['3 BANQUO']
+      #subject.scan(/3 BANQUO/).must_equal ['3 BANQUO']
+      subject.must_match /3 +BANQUO/
       # puts (subject =~ /d+ First Witch/).to_s + '@@!!!!!!!@@@@@@@'
       # (subject =~ /d+ First Witch/).must_equal '3 First Witch'
     end
