@@ -7,20 +7,19 @@ describe Ibiblio::Play do
 
   describe 'characters in play' do
     subject { Ibiblio::Play.new(xml).characters_names }
-    it { subject.must_equal ['First Witch', 'Second Witch', 'Third Witch'] }
+    it { subject.must_equal ['BANQUO', 'First Murderer', 'Third Murderer'] }
   end
 
   describe 'speeches in play' do
     subject { Ibiblio::Play.new(xml).speeches }
     it { subject[0].must_equal(
-        { character: 'First Witch', lines: [ 'When shall we three meet again',
-                                             'In thunder, lightning, or in rain?' ]}) }
+        { character: 'BANQUO', lines: [ 'It will be rain to-night.' ]}) }
   end
 
   describe 'line_counts' do
     subject { Ibiblio::Play.new(xml).line_counting }
     it {
-      subject[0].must_equal( { character: 'First Witch', line_counting: 3 } )
+      subject[0].must_equal( { character: 'BANQUO', line_counting: 3 } )
     }
   end
 end

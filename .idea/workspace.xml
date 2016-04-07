@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53a3466d-02a2-4927-a36e-b0d68c68472e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ibiblio_test.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slc" afterPath="$PROJECT_DIR$/turn_on_file" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/character_lines_test.rb" afterPath="$PROJECT_DIR$/character_lines_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibiblio.rb" afterPath="$PROJECT_DIR$/ibiblio.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibiblio_test.rb" afterPath="$PROJECT_DIR$/ibiblio_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_sample.xml" afterPath="$PROJECT_DIR$/my_sample.xml" />
     </list>
     <ignored path="analyzing-shakespeare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,14 +25,14 @@
     <favorites_list name="analyzing-shakespeare" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5962777">
+    <splitter split-orientation="horizontal" split-proportion="0.59198284">
       <split-first>
         <leaf>
-          <file leaf-file-name="character_lines_test.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="character_lines_test.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/character_lines_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.75386596">
-                  <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+                <state vertical-scroll-proportion="-10.0">
+                  <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -54,7 +52,17 @@
             <entry file="file://$PROJECT_DIR$/turn_on_file">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ibiblio_test.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ibiblio_test.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.4483188">
+                  <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -64,21 +72,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ibiblio_test.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ibiblio_test.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.888889">
-                  <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="my_sample.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my_sample.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.15404364">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.23106547">
+                  <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -95,11 +93,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ibliblio.rb" />
-        <option value="$PROJECT_DIR$/character_lines_test.rb" />
         <option value="$PROJECT_DIR$/slc" />
-        <option value="$PROJECT_DIR$/ibiblio_test.rb" />
         <option value="$PROJECT_DIR$/ibiblio.rb" />
         <option value="$PROJECT_DIR$/my_sample.xml" />
+        <option value="$PROJECT_DIR$/character_lines_test.rb" />
+        <option value="$PROJECT_DIR$/ibiblio_test.rb" />
       </list>
     </option>
   </component>
@@ -109,8 +107,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="-927" />
+    <option name="x" value="283" />
+    <option name="y" value="-953" />
     <option name="width" value="1706" />
     <option name="height" value="949" />
   </component>
@@ -310,7 +308,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="-927" width="1706" height="949" extended-state="0" />
+    <frame x="283" y="-953" width="1706" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16045673" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -407,10 +405,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ibiblio_test.rb">
+    <entry file="file://$PROJECT_DIR$/turn_on_file">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.888889">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/character_lines_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -423,26 +429,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/turn_on_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/character_lines_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75386596">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_sample.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15404364">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23106547">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibiblio_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4483188">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding />
         </state>
       </provider>

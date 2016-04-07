@@ -1,29 +1,28 @@
-<SCENE><TITLE>SCENE I.  A desert place.</TITLE>
-  <STAGEDIR>Thunder and lightning. Enter three Witches</STAGEDIR>
-
-  <SPEECH>
-    <SPEAKER>First Witch</SPEAKER>
-    <LINE>When shall we three meet again</LINE>
-    <LINE>In thunder, lightning, or in rain?</LINE>
-  </SPEECH>
-
-  <SPEECH>
-    <SPEAKER>Second Witch</SPEAKER>
-    <LINE>When the hurlyburly's done,</LINE>
-    <LINE>When the battle's lost and won.</LINE>
-  </SPEECH>
-
-  <SPEECH>
-    <SPEAKER>Third Witch</SPEAKER>
-    <LINE>That will be ere the set of sun.</LINE>
-  </SPEECH>
-
-  <SPEECH>
-    <SPEAKER>First Witch</SPEAKER>
-    <LINE>Where the place?</LINE>
-  </SPEECH>
-
-  <SPEECH>
-    <SPEAKER>Second Witch</SPEAKER>
-    <LINE>Upon the heath.</LINE>
-  </SPEECH>
+<SPEECH>
+  <SPEAKER>BANQUO</SPEAKER>
+  <LINE>It will be rain to-night.</LINE>
+</SPEECH>
+<SPEECH>
+<SPEAKER>First Murderer</SPEAKER>
+<LINE>Let it come down.</LINE>
+</SPEECH>
+<STAGEDIR>They set upon BANQUO</STAGEDIR>
+<SPEECH>
+<SPEAKER>BANQUO</SPEAKER>
+<LINE>O, treachery! Fly, good Fleance, fly, fly, fly!</LINE>
+<LINE>Thou mayst revenge. O slave!</LINE>
+</SPEECH>
+<STAGEDIR>Dies. FLEANCE escapes</STAGEDIR>
+<SPEECH>
+<SPEAKER>Third Murderer</SPEAKER>
+<LINE>Who did strike out the light?</LINE>
+</SPEECH>
+<SPEECH>
+<SPEAKER>First Murderer</SPEAKER>
+<LINE>Wast not the way?</LINE>
+</SPEECH>
+<SPEECH>
+<SPEAKER>Third Murderer</SPEAKER>
+<LINE>There's but one down; the son is fled.</LINE>
+</SPEECH>
+<SPEECH>

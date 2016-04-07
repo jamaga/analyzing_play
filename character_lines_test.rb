@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'byebug'
-require 'ibiblio'
+require './ibiblio'
 
 # integration test
 #if i give data -- it does THIS to it
@@ -11,29 +11,29 @@ require 'ibiblio'
 describe 'test for checking if tehy are saying sth' do
   let(:xml) { File.read('./my_sample.xml') }
 
-  describe 'FIRST character\'s lines' do
+  describe 'BANQUO has 3 lines' do
     subject { Ibiblio.reading(xml) }
-    it 'character has three lines' do
+    it 'character has 3 lines' do
       #byebug
       #subject must be equal to any number of numbers
       #and then a name - which is first which
-      subject.scan(/3 First Witch/).must_equal ['3 First Witch']
+      subject.scan(/3 BANQUO/).must_equal ['3 BANQUO']
       # puts (subject =~ /d+ First Witch/).to_s + '@@!!!!!!!@@@@@@@'
       # (subject =~ /d+ First Witch/).must_equal '3 First Witch'
     end
   end
 
-  describe 'SECOND character\'s lines' do
+  describe 'First Murderer has 2 lines' do
     subject { Ibiblio.reading(xml) }
-    it 'character has three lines' do
-      subject.scan(/3 Second Witch/).must_equal ['3 Second Witch']
+    it 'character has 2 lines' do
+      subject.scan(/2 First Murderer/).must_equal ['2 First Murderer']
     end
   end
 
-  describe 'THIRD character\'s lines' do
+  describe 'Third Murderer has 2 lines' do
     subject { Ibiblio.reading(xml) }
-    it 'character has one line' do
-      subject.scan(/1 Third Witch/).must_equal ['1 Third Witch']
+    it 'character has 2 lines' do
+      subject.scan(/2 Third Murderer/).must_equal ['2 Third Murderer']
     end
   end
 
