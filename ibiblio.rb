@@ -1,5 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
+require 'nokogiri'
 require 'byebug'
 
 module Ibiblio
@@ -12,8 +13,9 @@ module Ibiblio
   end
 
   class Speaker
-    def self.all
-      :llalalalalalaaal
+    def self.all(xml)
+      xml_doc = Nokogiri::XML(xml)
+      raise xml_doc
     end
   end
 end
@@ -21,7 +23,7 @@ end
 
 describe Ibiblio::Speaker do
   describe 'all speakers lines' do
-    subject { Ibiblio::Speaker.all }
+    subject { Ibiblio::Speaker.all(File.read('./my_sample.xml')) }
     it { subject.must_equal ['First Witch', 'Second Witch', 'Third Witch'] }
   end
 end
