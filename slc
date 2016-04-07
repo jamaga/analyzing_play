@@ -2,4 +2,3 @@
 
 require_relative 'ibiblio'
 puts Ibiblio.lc(ARGV.join)
-

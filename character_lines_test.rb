@@ -31,7 +31,9 @@ describe 'test for checking if tehy are saying sth' do
 
   describe 'THIRD character\'s lines' do
     subject { Ibiblio.lc(xml) }
-    it 'character has one libe' do
+    it 'character has one line' do
       subject.scan(/1 Third Witch/).must_equal ['1 Third Witch']
     end
   end
+
+end
