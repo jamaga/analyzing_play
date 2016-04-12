@@ -8,7 +8,7 @@ require './ibiblio'
 # we can try on one person - in a sample
 # would work for all later
 
-describe 'test for checking if tehy are saying sth' do
+describe 'test for checking if they are saying sth' do
   let(:xml) { File.read('./my_sample.xml') }
 
   describe 'BANQUO has 3 lines' do
@@ -27,14 +27,16 @@ describe 'test for checking if tehy are saying sth' do
   describe 'First Murderer has 2 lines' do
     subject { Ibiblio.reading(xml) }
     it 'character has 2 lines' do
-      subject.scan(/2 First Murderer/).must_equal ['2 First Murderer']
+      #subject.scan(/2 First Murderer/).must_equal ['2 First Murderer']
+      assert_equal subject.scan(/2 First Murderer/), '2 First Murderer'
     end
   end
 
   describe 'Third Murderer has 2 lines' do
     subject { Ibiblio.reading(xml) }
     it 'character has 2 lines' do
-      subject.scan(/2 Third Murderer/).must_equal ['2 Third Murderer']
+      #subject.scan(/2 Third Murderer/).must_equal ['2 Third Murderer']
+      assert_equal subject.scan(/2 Third Murderer/), '2 Third Murderer'
     end
   end
 
