@@ -37,7 +37,6 @@ module Ibiblio
       end
     end
 
-    #private
     attr_reader :xml
     def xml_document
       @xml_document ||= Nokogiri::XML(xml)

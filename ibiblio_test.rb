@@ -13,17 +13,18 @@ describe Ibiblio::Play do
     end
   end
 
-  describe 'speeches in play' do
+  describe 'checks if we see correct lines of characters' do
     subject { Ibiblio::Play.new(xml).speeches }
-    it 'checks first murderer' do
+    it 'checks First Murderer' do
       assert_equal subject[0], {character: 'First Murderer', lines: [ 'Let it come down.' ]}
       end
   end
 
-  describe 'line_counts' do
+  describe 'checks if we are getting correct count of lines' do
     subject { Ibiblio::Play.new(xml).line_counting }
     it 'checks lines of Banquo' do
       assert_equal subject[0], { character_names: 'BANQUO', line_counting: 3 }
     end
   end
+
 end
